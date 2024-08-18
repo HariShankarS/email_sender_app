@@ -3,7 +3,7 @@ lock "~> 3.19.1"
 
 set :application, "email_sender_app"
 set :repo_url, "git@github.com:HariShankarS/email_sender_app.git"
-set :branch, :master
+set :branch, :main
 set :deploy_to, '/home/deploy/email_sender_app'
 set :pty, true
 set :linked_files, %w{config/database.yml config/master.key}
